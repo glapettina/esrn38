@@ -34,6 +34,7 @@
               <option value="">-- Seleccione --</option>              
               <option value="01/2023">01/2023</option>
               <option value="02/2023">02/2023</option>
+              <option value="01/2024">01/2024</option>
            </select>
       </div>     
 
