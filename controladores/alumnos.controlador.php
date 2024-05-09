@@ -106,18 +106,14 @@
 
 					if ($moda == 1) {
 						
-						$datos = array("documento" => $_POST["editarDocumento"], "nombre" => $_POST["editarNombre"], "modalidad" => $_POST["editarModalidad"], "id" => $_POST["idAlumno"]);
+						$datos = array("documento" => $_POST["editarDocumento"], "nombre" => $_POST["editarNombre"], "modalidad" => $_POST["editarModalidad"], "curso" => $_POST["editarCurso"], "id" => $_POST["idAlumno"]);
 
 					}else{
 
-						$datos = array("documento" => $_POST["editarDocumento"], "nombre" => $_POST["editarNombre"], "id" => $_POST["idAlumno"]);
+						$datos = array("documento" => $_POST["editarDocumento"], "nombre" => $_POST["editarNombre"], "curso" => $_POST["editarCurso"], "id" => $_POST["idAlumno"]);
 
 					}
 					
-					
-
-					
-
 
 					$respuesta = ModeloAlumnos::mdlEditarAlumno($tabla, $datos, $moda);
 
