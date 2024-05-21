@@ -367,9 +367,10 @@
               $tabla = "segundo";
               $curso = "21tt-ingles";
               $ncurso = 5;
+              $$periodo = $_SESSION["periodo"];
 
               $copiaSaberes = new ControladorInformes();
-              $copiaSaberes -> ctrCopiarSaberesIngles($tabla, $curso, $ncurso);
+              $copiaSaberes -> ctrCopiarSaberesIngles($tabla, $curso, $ncurso, $periodo);
 
           ?>
 
