@@ -1121,7 +1121,7 @@ $bloque14 = <<<EOF
 
 				<br>
 
-				$respuestaInforme[saberes_fisica]
+				$respuestaInforme[saberes_fisicao]
 
 			</td>
 
@@ -1129,7 +1129,7 @@ $bloque14 = <<<EOF
 
 				<br>
 
-				$respuestaInforme[aprecia_fisica]
+				$respuestaInforme[aprecia_fisicao]
 
 
 			</td>
@@ -1138,7 +1138,7 @@ $bloque14 = <<<EOF
 
 				<br>
 
-				$respuestaInforme[asistencia_fisica]
+				$respuestaInforme[asistencia_fisicao]
 
 			</td>	
 
@@ -1146,7 +1146,7 @@ $bloque14 = <<<EOF
 
 				<br>
 
-				$respuestaInforme[observa_fisica]
+				$respuestaInforme[observa_fisicao]
 
 			</td>	
 
